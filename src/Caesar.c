@@ -35,11 +35,10 @@ int main()
 }  
 void encipher()  
 {  
-	int key;  
+    int key;  
     char ch,c;  
     char str[1024];  
 	char cipher[1024];
-    FILE *infile,*outfile;  
     printf("ÊäÈëÓû¼ÓÃÜ×Ö·û´®£º");  
     scanf("%s",str);  
     printf("ÊäÈë¼ÓÃÜÃÜÔ¿£º");  
@@ -71,11 +70,10 @@ void encipher()
 }  
 void decipher()  
 {  
-	int key;  
+    int key;  
     char ch,c;  
     char str[1024];  
 	char plain[1024];
-    FILE *infile,*outfile;  
     printf("ÊäÈë½âÃÜ×Ö·û´®£º");  
     scanf("%s",str);  
 	printf("input is %s\n",str);
