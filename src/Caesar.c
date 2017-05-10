@@ -46,7 +46,7 @@ void encipher()
     scanf("%d",&key);  
 	int i;
 	for(i=0;i<strlen(str);i++){
-		char ch=str[i];
+		ch=str[i];
 		if(ch>=48&&ch<=57)//数字加密  
         {  
             c=((ch-48)+key)%10;  
@@ -85,7 +85,7 @@ void decipher()
 		if(key==0) return;
 		int i;
 		for(i=0;i<strlen(str);i++){
-			char ch=str[i];
+			ch=str[i];
 			if(ch>=48&&ch<=57)//数字解密  
 			{  
 				c=((ch-48)-key+10)%10;//此处+10是防止，c==负数  
